@@ -1,0 +1,29 @@
+{
+  "name": "Cosmeticos",
+  "short_name": "Cosmeticos",
+  "description": "Bienvenid@s",
+  "background_color": "#2B2B2B",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+    "icons": [
+        {
+            "src": "./imagenes/icono1.png",
+            "sizes": "434x436",
+            "type": "image/png           "
+        },
+        {
+            "src": "./imagenes/icono2.png",
+            "sizes": "1024x1024",
+            "type": "image/png           "
+        },
+        {
+            "src": "./imagenes/icono3.png",
+            "sizes": "512x512",
+            "type": "image/png           "
+        }
+    ]
+}

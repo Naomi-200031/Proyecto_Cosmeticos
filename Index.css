@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+    background-color: #f7eee1;
+}
+
+.titulo {
+    font-family: 'Sacramento', cursive;
+    color: rgb(201, 72, 151);
+    size: 450px;
+    text-align: center;
+}
+
+.imagen {
+    margin-left: 39%;
+    margin-right: 35%;
+    width: 90px;
+    height: 90px;
+}
+
+.imagen:hover {
+
+    -webkit-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+
+}
+
+
+
+header {
+    color: black;
+    text-align: center;
+    background: rgb(201, 72, 151);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav {
+    margin-right: 45x;
+    margin: auto;
+    color: black;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    margin-left: 450px;
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #222121;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    color: black;
+    text-align: center;
+    background: #e6c1e7;
+}
